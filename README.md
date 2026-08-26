@@ -106,32 +106,32 @@ The demo generates visualizations showing:
 <img width="1400" height="500" alt="Figure_metrics" src="https://github.com/user-attachments/assets/d15cafc4-ead9-4ad6-9c99-3735190b3df5" />
 
 ## 📁 Repository Structure
-novel-divisive-clustering/
-├── clustering/              # Clustering algorithms
-│   ├── __init__.py
-│   ├── base.py             # DivisiveTree base class
-│   ├── order_based.py      # Order-Based splitter
-│   └── proximity_based.py  # Proximity-Based splitter
-├── datasets/               # Dataset loading
-│   ├── __init__.py
-│   ├── loader.py           # Dataset registry
-│   ├── banknote.py
-│   ├── credit_card.py
-│   ├── credit_approval.py
-│   ├── german_credit.py
-│   ├── census_income.py
-│   └── spambase.py
-├── evaluation/             # Evaluation & visualization
-│   ├── __init__.py
-│   ├── metrics.py          # ARI, NMI, Silhouette
-│   └── visualization.py    # Plotting functions
-├── utils/                  # Utilities
-│   ├── __init__.py
-│   └── helpers.py          # Helper functions
-├── demo.py                 # Main demo script
-├── requirements.txt        # Dependencies
-├── setup.py               # Package installation
-└── README.md              # This file
+novel-divisive-clustering/  
+├── clustering/              # Clustering algorithms  
+│   ├── __init__.py  
+│   ├── base.py             # DivisiveTree base class  
+│   ├── order_based.py      # Order-Based splitter  
+│   └── proximity_based.py  # Proximity-Based splitter  
+├── datasets/               # Dataset loading  
+│   ├── __init__.py  
+│   ├── loader.py           # Dataset registry  
+│   ├── banknote.py  
+│   ├── credit_card.py  
+│   ├── credit_approval.py  
+│   ├── german_credit.py  
+│   ├── census_income.py  
+│   └── spambase.py  
+├── evaluation/             # Evaluation & visualization  
+│   ├── __init__.py  
+│   ├── metrics.py          # ARI, NMI, Silhouette  
+│   └── visualization.py    # Plotting functions  
+├── utils/                  # Utilities  
+│   ├── __init__.py  
+│   └── helpers.py          # Helper functions  
+├── demo.py                 # Main demo script  
+├── requirements.txt        # Dependencies  
+├── setup.py               # Package installation  
+└── README.md              # This file  
 
 
 ## 🧪 Algorithms
@@ -146,7 +146,8 @@ The Order-Based algorithm splits clusters using relative rank ordering:
 
 4. Use distance-based tie-breaking when ranks are equal
 
-Key advantage: Robust to scale variations and outliers through rank-based comparison.
+Key advantage: Robust to scale variations and outliers through rank-based comparison.  
+
 
 Proximity-Based Divisive Clustering
 The Proximity-Based algorithm uses direct distance relationships:
@@ -160,7 +161,7 @@ The Proximity-Based algorithm uses direct distance relationships:
 Key advantage: Intuitive partitions that preserve local geometric structure.
 
 
-📈 Evaluation Metrics
+## 📈 Evaluation Metrics
 The following metrics are included for evaluation:
 
 -Adjusted Rand Index (ARI) - Measures similarity between predicted and true labels
@@ -171,7 +172,7 @@ The following metrics are included for evaluation:
 
 -Runtime - Execution time in seconds
 
-🔧 Adding New Datasets
+## 🔧 Adding New Datasets
 To add a new dataset:
 
 1. Create a new file in datasets/ (e.g., my_dataset.py)
@@ -236,7 +237,7 @@ def my_custom_split(dist_matrix):
 ## 📚 Citation
 The work is under submission process.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
@@ -249,4 +250,18 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 5. Open a Pull Request
 
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+UCI Machine Learning Repository for providing the datasets
+
+Scikit-learn for the base clustering implementations
+
+## 📧 Contact
+For questions or feedback, please open an issue or contact:
+
+Your Name - celal.alagoz@gmail.com
+
+GitHub: @alagoz
     
