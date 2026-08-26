@@ -164,13 +164,13 @@ Key advantage: Intuitive partitions that preserve local geometric structure.
 ## 📈 Evaluation Metrics
 The following metrics are included for evaluation:
 
--Adjusted Rand Index (ARI) - Measures similarity between predicted and true labels
+- Adjusted Rand Index (ARI) - Measures similarity between predicted and true labels
 
--Normalized Mutual Information (NMI) - Measures mutual information between clusterings
+- Normalized Mutual Information (NMI) - Measures mutual information between clusterings
 
--Silhouette Score - Measures intra-cluster cohesion vs. inter-cluster separation
+- Silhouette Score - Measures intra-cluster cohesion vs. inter-cluster separation
 
--Runtime - Execution time in seconds
+- Runtime - Execution time in seconds
 
 ## 🔧 Adding New Datasets
 To add a new dataset:
