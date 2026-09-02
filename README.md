@@ -261,7 +261,7 @@ Scikit-learn for the base clustering implementations
 ## 📧 Contact
 For questions or feedback, please open an issue or contact:
 
-Your Name - celal.alagoz@gmail.com
+Celal Alagöz - celal.alagoz@gmail.com
 
 GitHub: @alagoz
     
